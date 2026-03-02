@@ -1,7 +1,10 @@
 # analyzer/sentiment.py
 
 from textblob import TextBlob
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+try:
+    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+except ImportError:
+    from vaderSentiment import SentimentIntensityAnalyzer
 import requests
 import json
 from config import CONFIG
