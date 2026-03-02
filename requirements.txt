@@ -15,3 +15,8 @@ fpdf
 textblob
 vaderSentiment
 pytz
+sqlalchemy
+matplotlib
+seaborn
+ta
+
