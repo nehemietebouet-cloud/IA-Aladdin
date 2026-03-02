@@ -8,13 +8,7 @@ import plotly.express as px
 import yfinance as yf
 import os
 from datetime import datetime
-from analyzer.strategy import TradingAI
-from analyzer.market_structure import MarketStructure
-from analyzer.signal_analyzer import SignalAnalyzer
-from analyzer.predictive_models import PredictiveModels
-from analyzer.market_regime import MarketRegime
-from analyzer.risk_advanced import AdvancedRisk
-from analyzer.sentiment import SentimentNLP
+from analyzer import TradingAI, MarketStructure, SignalAnalyzer, PredictiveModels, MarketRegime, AdvancedRisk, SentimentNLP
 from utils.indicators import (
     calculate_fib_levels, 
     identify_fvg, 
