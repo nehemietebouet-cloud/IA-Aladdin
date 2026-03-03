@@ -1,9 +1,0 @@
-__pycache__/
-*.pyc
-.streamlit/
-.vscode/
-aladdin_v4.db
-history/
-*.log
-check_deps.py
-test_nlp_deps.py
